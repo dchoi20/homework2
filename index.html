@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- NAV BAR  -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Danny Choi</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Index</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NAV BAR  -->
+  <header>
+    <nav class="navbar navbar-light bg-light">
+      <h1 class="fullName">Danny Choi</h1>
+      <ul class="listItems">
+        <li class="listItems"><a href="./index.html">About</a></li>
+        <li class="listItems"><a href="./portfolio.html">Portfolio</a></li>
+        <li class="listItems"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- About Me  -->
+  <main class="container aboutMeCard">
+    <div class="card" style="width: 70%;">
+      <div class="card-body">
+        <h5 class="card-title aboutMeTitle">About Me</h5>
+        <hr>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <img src="http://placehold.it/350x250" alt="About Me Placeholder" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt corporis voluptate ipsam quidem nemo,
+              earum animi adipisci officiis magnam vero similique laudantium eaque quibusdam placeat ipsum sapiente
+              nihil
+              perspiciatis illum.</p>
+          </div>
         </div>
-      </nav>
-    </header>
-    <!-- STICKY FOOTER  -->
-    <footer></footer>
-  </body>
+        <br>
+        <div class="row">
+          <div class="col">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ducimus. Tempora alias aperiam dolore
+              quas
+              ratione dolorum ducimus, illo atque harum expedita illum cupiditate fuga iure accusantium soluta numquam
+              repudiandae.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- STICKY FOOTER  -->
+  <footer>
+    <div class="footer-copyright text-center py-3">© Copyright:
+
+    </div>
+  </footer>
+</body>
+
 </html>
